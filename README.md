@@ -28,7 +28,7 @@ Siravit-Fishing-Gear/
 
  # รูปหน้าจอเว็บไซต์ 
   ![หน้าแรก (index)](image/index.png)
-  ![หน้าสินค้า (service)](image/services.png)
+  ![หน้าสินค้า (service)](image/service.png)
   ![หน้าสินค้า(about)](image/about.png)
   ![หน้าติดต่อ(Contact)](image/contact.png)
 
@@ -36,7 +36,7 @@ Siravit-Fishing-Gear/
  # ลิงก์เข้าใช้งานแต่ละหน้า
  หน้าแรก: [index.html](index.html)
 
- หน้าสินค้า: [service.html](service.html)
+ หน้าสินค้า: [service.html](services.html)
 
  หน้าเกี่ยวกับร้าน: [about.html](about.html)
 
