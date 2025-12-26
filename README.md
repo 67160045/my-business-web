@@ -8,13 +8,11 @@
 #  โครงสร้างไฟล์ (file Structure)
 
 Siravit-Fishing-Gear/
-│
+
 ├── index.html          
 ├── services.html       
 ├── about.html          
 ├── contact.html        
-│
-│   
 │
 ├── images/
 │   ├── LOGO.png        
@@ -22,20 +20,17 @@ Siravit-Fishing-Gear/
 │   ├── service.png   
 │   ├── about.png      
 │   └── contact.png   
-│   └── siravit.png
+│   └── siravit.jpg
+│
 └── README.md   
 
 
 
  # รูปหน้าจอเว็บไซต์ 
- หน้าแรก (index)
-  ![หน้าแรก](index.png)
- หน้าสินค้า (service)
-  ![alt text](service.png)
- หน้าเกี่ยวกับร้าน (About)
-  ![หน้าสินค้า](about.png)
- หน้าติดต่อ (Contact)
-  ![หน้าติดต่อ](contact.png)
+  ![หน้าแรก (index)](index/png)
+  ![หน้าสินค้า (service)](service/png)
+  ![หน้าสินค้า(about)](about/png)
+  ![หน้าติดต่อ(Contact)](contact/png)
 
 
  # ลิงก์เข้าใช้งานแต่ละหน้า
