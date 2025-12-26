@@ -7,13 +7,13 @@
 
 #  โครงสร้างไฟล์ (file Structure)
 
-Siravit-Fishing-Gear/
-│
-├── index.html
-├── services.html
-├── about.html
-├── contact.html
-│
+assignment1/
+├── index.html 
+├── about.html 
+├── contact.html 
+├── services.html 
+├
+├
 ├── images/
 │   ├── LOGO.png
 │   ├── index.png
@@ -21,8 +21,6 @@ Siravit-Fishing-Gear/
 │   ├── about.png
 │   ├── contact.png
 │   └── siravit.jpg
-│
-└── README.md
 
 
 
