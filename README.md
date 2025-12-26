@@ -8,21 +8,21 @@
 #  โครงสร้างไฟล์ (file Structure)
 
 Siravit-Fishing-Gear/
-
-├── index.html          
-├── services.html       
-├── about.html          
-├── contact.html        
+│
+├── index.html
+├── services.html
+├── about.html
+├── contact.html
 │
 ├── images/
-│   ├── LOGO.png        
-│   ├── index.png        
-│   ├── service.png   
-│   ├── about.png      
-│   └── contact.png   
+│   ├── LOGO.png
+│   ├── index.png
+│   ├── service.png
+│   ├── about.png
+│   ├── contact.png
 │   └── siravit.jpg
 │
-└── README.md   
+└── README.md
 
 
 
