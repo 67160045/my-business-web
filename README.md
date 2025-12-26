@@ -7,20 +7,6 @@
 
 #  โครงสร้างไฟล์ (file Structure)
 
-assignment1/
-├── index.html 
-├── about.html 
-├── contact.html 
-├── services.html 
-├
-├
-├── images/
-│   ├── LOGO.png
-│   ├── index.png
-│   ├── service.png
-│   ├── about.png
-│   ├── contact.png
-│   └── siravit.jpg
 
 
 
