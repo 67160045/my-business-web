@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Products | Siravit Fishing Gear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <title>Siravit Fishing Gear Products</title>
-</head>
-<body>
-    <h1>สินค้าของ Siravit Fishing Gear</h1>
-    <section>
-        <h2>คันเบ็ดคาร์บอนไฟเบอร์</h2>
-        <p>แนะนำให้จับคู่กับรอกน้ำหนักเบา เพื่อการเล่นเหยื่อที่แม่นยำ</p>
+    
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    
+    <header id="header">
+      <div class="container header-bar">
+        <h1 class="brand">Siravit Fishing Gear</h1>
+
+        <nav class="nav-menu">
+          <a href="index.html">หน้าแรก</a>
+          <a href="about.html">เกี่ยวกับ</a>
+          <a href="services.html" class="active">สินค้า</a>
+          <a href="contact.html">ติดต่อ</a>
+        </nav>
+      </div>
+    </header>
+
+    
+    <section class="hero">
+      <div class="container">
+        <h2>อุปกรณ์ตกปลาคุณภาพ สำหรับทุกประสบการณ์</h2>
+        <p>คัดสรรสินค้าเพื่อความแม่นยำ ความทนทาน และประสบการณ์ที่ดีที่สุด</p>
+      </div>
     </section>
-    <section>
-        <h2>รอกตกปลา</h2>
-        <p>เหมาะกับการตกปลาทั่วไป เช่น ปลาช่อน ปลาดุก ปลายี่สก</p>
-    </section>
-    <section>
-        <h2>ชุดเหยื่อปลอม</h2>
-        <p>ประกอบด้วยเหยื่อปลอมหลายแบบ เหมาะสำหรับทั้งน้ำจืดและน้ำเค็ม</p>
-    </section>
-    <table border="1">
-        <tr>
-            <th>ประเภทสินค้า</th>
-            <th>ราคา</th>
-        </tr>
-        <tr>
-            <td>คันเบ็ดคาร์บอนไฟเบอร์</td>
-            <td>1,800 บาท</td>
-        </tr>
-        <tr>
-            <td>รอกตกปลา</td>
-            <td>1200 บาท</td>
-        </tr>
-        <tr>
-            <td>ชุดเหยื่อปลอม</td>
-            <td>350 บาท/ชุด</td>
-        </tr>
-    </table>
-    <a href="index.html">กลับหน้าแรก</a>
-</body>
+
+    
+    <main class="section">
+      <div class="container">
+       
+        <section class="product-grid">
+          <article class="product-card">
+            <h3> คันเบ็ดคาร์บอนไฟเบอร์</h3>
+            <p>
+              คันเบ็ดน้ำหนักเบา แข็งแรงสูง ควบคุมเหยื่อได้แม่นยำ
+              เหมาะกับนักตกปลาทุกระดับ
+            </p>
+          </article>
+
+          <article class="product-card">
+            <h3> รอกตกปลา</h3>
+            <p>ระบบลื่นไหล แข็งแรง ทนทาน รองรับการใช้งานทั้งน้ำจืดและน้ำเค็ม</p>
+          </article>
+
+          <article class="product-card">
+            <h3> ชุดเหยื่อปลอม</h3>
+            <p>รวมเหยื่อหลากหลายรูปแบบ เพิ่มโอกาสการกัดเหยื่อในทุกสภาพน้ำ</p>
+          </article>
+        </section>
+
+        
+        <section class="pricing">
+          <h3>ตารางราคา</h3>
+
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>สินค้า</th>
+                <th>ราคา</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>คันเบ็ดคาร์บอนไฟเบอร์</td>
+                <td>1,800 บาท</td>
+              </tr>
+              <tr>
+                <td>รอกตกปลา</td>
+                <td>1,200 บาท</td>
+              </tr>
+              <tr>
+                <td>ชุดเหยื่อปลอม</td>
+                <td>350 บาท / ชุด</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="back-link">
+          <a href="index.html">← กลับหน้าแรก</a>
+        </div>
+      </div>
+    </main>
+
+    
+    <footer id="footer">
+      <div class="container">
+        <p>© 2025 Siravit Fishing Gear. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
