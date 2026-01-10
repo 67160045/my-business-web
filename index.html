@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siravit Fishing Gear</title>
-</head>
-<body>
-    <header>
-        <img src="image/LOGO.png" alt="Siravit Fishing Gear Logo" style="width: 30%"/>
-        <nav>
-            <a href="index.html">หน้าแรก</a>
-            <a href="about.html">เกี่ยวกับ</a>
-            <a href="services.html">สินค้า</a>
-            <a href="contact.html">ติดต่อ</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Siravit Fishing Gear</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container header-container">
+        <img src="image/LOGO.png" style="width: 10%" />
+        <alt="Siravit Fishing Gear Logo" class="LOGO-png" />
+
+        <nav class="nav-menu">
+          <a href="index.html" class="active">หน้าแรก</a>
+          <a href="about.html">เกี่ยวกับ</a>
+          <a href="services.html">สินค้า</a>
+          <a href="contact.html">ติดต่อ</a>
         </nav>
+      </div>
     </header>
-    <section>
+
+    <section class="hero">
+      <div class="hero-content">
         <h1>Welcome to Siravit Fishing Gear</h1>
-        <p>ร้านขายอุปกรณ์ตกปลาต่างๆ หลากหลายประเภท</p>
+        <p>ร้านขายอุปกรณ์ตกปลาคุณภาพ สำหรับนักตกปลาทุกระดับ</p>
+        <a href="services.html" class="btn">ดูสินค้า</a>
+      </div>
     </section>
 
-    <section>
-        <h2>สินค้าแนะนำ</h2>
-        <ul>
-            <li>คันเบ็ดคาร์บอนไฟเบอร์</li>
-            <li>รอกตกปลา</li>
-            <li>ชุดเหยื่อปลอม </li>
-        </ul>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">สินค้าแนะนำ</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>คันเบ็ดคาร์บอนไฟเบอร์</h3>
+            <p>น้ำหนักเบา แข็งแรง เหมาะสำหรับตกปลาน้ำจืดและน้ำเค็ม</p>
+          </div>
+
+          <div class="card">
+            <h3>รอกตกปลา</h3>
+            <p>หมุนลื่น ทนทาน ใช้งานง่าย เหมาะทั้งมือใหม่และมืออาชีพ</p>
+          </div>
+
+          <div class="card">
+            <h3>ชุดเหยื่อปลอม</h3>
+            <p>เหยื่อหลากหลายรูปแบบ ดึงดูดปลา ใช้ได้หลายสภาพน้ำ</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer>
-        <p>© 2025 Siravit Fishing Gear</p>
+
+    <footer id="footer">
+      <p>© 2025 Siravit Fishing Gear. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
