@@ -11,7 +11,7 @@
 # รูปหน้าจอเว็บไซต์
 
 ![หน้าแรก (index)](image/update-index.png)
-![หน้าสินค้า (service)](image/update-service.png)
+![หน้าสินค้า (service)](image/update-services.png)
 ![หน้าสินค้า(about)](image/update-about.png)
 ![หน้าติดต่อ(Contact)](image/update-contact.png)
 
